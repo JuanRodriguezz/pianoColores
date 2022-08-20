@@ -1,0 +1,39 @@
+.list-group-item{
+    height: 50px;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.nota-do{
+    background-color: #3d3dc0;
+}
+
+.nota-re{
+    background-color: #3db7c0;
+}
+
+.nota-mi{
+    background-color: #b53dc0;
+}
+
+.nota-fa{
+    background-color: #3dc074;
+}
+
+.nota-sol{
+    background-color: #892ddf;
+}
+
+.nota-la{
+    background-color: #c03d3d;
+}
+
+.nota-si{
+    background-color: #eed232;
+}

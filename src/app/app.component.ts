@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Piano';
+
+  reproducirNota(nota:string): void{
+    const audio = new Audio();
+    audio.src = '../assets/sonidos/note'+nota+'.wav';
+    audio.load();
+    audio.play();
+  }
 }
